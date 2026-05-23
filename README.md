@@ -65,7 +65,7 @@ Included Major Phases
 > A modern tech stack for building scalable, production-ready full-stack applications.
 - **Backend**: NestJS (Node.js + TypeScript, REST + GraphQL)
 - **Frontend**: Next.js (App Router, React Server Components) + Tailwind / ShadCN
-- **Language**: TypeScript (end-to-end)
+- **Language**: JavaScript, TypeScript (end-to-end)
 - **Database**: PostgreSQL (TypeORM / Prisma)
 - **Authentication**: JWT, Passport, Sessions, OAuth (Google, GitHub), 2FA, NextAuth
 - **Caching & Real-time**: Redis, WebSockets
