@@ -284,10 +284,6 @@
 - Type-safe DB Interaction
 - Prisma vs TypeORM
 
-### MongoDB Integration
-- MongoDB Atlas Setup
-- MongoDB with NestJS
-
 ---
 
 ## Phase 7: Next.js Basics (Frontend Start)
@@ -770,9 +766,7 @@
 
 ### Database in Microservices
 - Database per Service
-- MongoDB Atlas
 - Postgres
-- MySQL
 
 ### Cloud Deployment
 - Google Cloud Engine Setup

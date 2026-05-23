@@ -29,7 +29,7 @@ Why It's Useful
 
 Included Major Phases
 - **Foundations** → JavaScript, TypeScript, dev environment setup.
-- **Backend (NestJS)** → controllers, services, modules, DI, validation, TypeORM, Prisma, MongoDB.
+- **Backend (NestJS)** → controllers, services, modules, DI, validation, TypeORM, Prisma.
 - **Frontend (Next.js)** → file-based routing, SSR/SSG/ISR, App Router, server components.
 - **Auth** → password hashing, JWT, sessions, OAuth, 2FA, NextAuth/Clerk/Auth0.
 - **Advanced** → caching with Redis, WebSockets, GraphQL, Stripe, email, testing.
@@ -66,7 +66,7 @@ Included Major Phases
 - **Backend**: NestJS (Node.js + TypeScript, REST + GraphQL)
 - **Frontend**: Next.js (App Router, React Server Components) + Tailwind / ShadCN
 - **Language**: TypeScript (end-to-end)
-- **Database**: PostgreSQL (TypeORM / Prisma), MongoDB
+- **Database**: PostgreSQL (TypeORM / Prisma)
 - **Authentication**: JWT, Passport, Sessions, OAuth (Google, GitHub), 2FA, NextAuth
 - **Caching & Real-time**: Redis, WebSockets
 - **API Layer**: REST, GraphQL (Apollo), Apollo Federation
@@ -90,7 +90,6 @@ Included Major Phases
 | Backend Framework     | NestJS (modules, controllers, services, DI, pipes, guards, interceptors)                |
 | Frontend Framework    | Next.js (App Router, SSR, SSG, ISR, server components)                                  |
 | RDBMS                 | PostgreSQL (via TypeORM and Prisma)                                                     |
-| NoSQL                 | MongoDB (Atlas, Mongoose)                                                               |
 | ORM                   | TypeORM, Prisma                                                                         |
 | Authentication        | bcrypt, JWT, Passport, Sessions, Cookies, OAuth (Google, GitHub), 2FA                   |
 | Authorization         | Role-based access, scopes, guards, custom decorators                                    |
@@ -194,7 +193,7 @@ Included Major Phases
 | 5 | [Phase 3: Development Environment Setup](docs/roadmap.md#phase-3-development-environment-setup) | VS Code, Node, Docker, Git, Postman, Parcel |
 | 6 | [Phase 4: NestJS Basics](docs/roadmap.md#phase-4-nestjs-basics-backend-start) | Controllers, routing, Nest CLI, project structure |
 | 7 | [Phase 5: NestJS Core Concepts](docs/roadmap.md#phase-5-nestjs-core-concepts) | Services, modules, DI, pipes, DTOs, exception filters |
-| 8 | [Phase 6: Database Integration](docs/roadmap.md#phase-6-database-integration-with-nestjs) | TypeORM, Prisma, MongoDB, CRUD, relations, query builder |
+| 8 | [Phase 6: Database Integration](docs/roadmap.md#phase-6-database-integration-with-nestjs) | TypeORM, Prisma, PostgreSQL, CRUD, relations, query builder |
 | 9 | [Phase 7: Next.js Basics](docs/roadmap.md#phase-7-nextjs-basics-frontend-start) | File-based routing, SSG/SSR/ISR, layouts, navigation |
 | 10 | [Phase 8: Next.js Core Concepts](docs/roadmap.md#phase-8-nextjs-core-concepts) | Client/server components, forms (RHF + Zod), Tailwind/ShadCN, API routes |
 | 11 | [Phase 9: Connecting Frontend & Backend](docs/roadmap.md#phase-9-connecting-frontend--backend) | CORS, axios/fetch, SWR, React Query |
@@ -241,7 +240,7 @@ Nestjs-Nextjs-Journey/
 ├── phase-05-nestjs-core/       # Services, modules, DI, pipes
 │   └── (your practice code)
 │
-├── phase-06-database/          # TypeORM, Prisma, MongoDB
+├── phase-06-database/          # TypeORM, Prisma, PostgreSQL
 │   └── (your practice code)
 │
 ├── phase-07-nextjs-basics/     # First Next.js app
