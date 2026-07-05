@@ -22,18 +22,33 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
 **Why It's Useful**
 - Removes guesswork — every phase has an ordered checklist of topics, so you always know what's next.
 - Builds depth, not just breadth — auth, the ORM, and deployment are each treated as multi-week deep dives.
-- Tracks progress — a **622-topic** tracker shows exactly where you are.
+- Tracks progress — a **683-topic** tracker across **4 levels** shows exactly where you are.
 - Bridges learning and production — ends with real, deployable projects rather than toy demos.
+
+## 🧭 The Four Levels
+
+The journey is organized into 4 cumulative levels, each ending in a concrete milestone you can point to. Every topic is **tagged for fast-tracking** (🔵 core · 🟡 skim · ⚪ skip) so an experienced dev can skip revision — the *Fast-track est.* column reflects that.
+
+| Level | Phases | Topics | Full est. | Fast-track est. | Milestone |
+|-------|--------|--------|-----------|-----------------|-----------|
+| **1 — Foundations** | 1–13 | 342 | ~428h | ~261h | Build a full-stack CRUD app (Django + DRF ↔ Next.js) |
+| **2 — Builder** | 14–21 | 212 | ~265h | ~188h | Build a **LaraBaseX-class** product (auth, RBAC, admin, audit, caching, jobs) |
+| **3 — Professional** | 22–23 | 54 | ~68h | ~45h | Test, ship & operate in production → **job-ready** |
+| **4 — Architect** | 24–26 | 75 | ~69h | ~48h | Distributed/plugin systems, AI, capstones → **expert** |
+
+> Levels are **cumulative** — job-ready (Level 3) means you have Levels 1 + 2 + 3.
+> **Fast-track to job-ready ≈ 495h** (~10 months at 12 h/week, or ~6 months at 20 h/week). Full path ≈ 829h. See the [roadmap's Fast-Track section](docs/roadmap.md#-fast-track-for-experienced-devs-your-path) for the recommended ordering.
 
 **Included Major Phases**
 - **Foundations** → Python, JavaScript, TypeScript, React, dev-environment setup.
 - **Backend (Django)** → projects/apps, views, the ORM, admin, forms, Django REST Framework.
 - **Frontend (Next.js)** → file-based routing, SSR/SSG/ISR, App Router, server components.
 - **Auth** → password hashing, JWT, sessions, cookies, OAuth, 2FA, NextAuth/Clerk/Auth0.
+- **Business systems** → multi-tenancy, RBAC, audit trails, billing, reporting, integrations.
 - **Advanced** → caching with Redis, WebSockets (Channels), GraphQL, Celery, Stripe, email, testing.
 - **DevOps** → Docker, migrations, CI/CD, Vercel, Railway/Render, AWS.
-- **Scaling** → message queues, gRPC, Kubernetes, API gateways, observability.
-- **Capstone Projects** → e-commerce, real-time chat, Trello clone, SaaS dashboard, AI doc generator.
+- **Scaling** → microservices, plugin/modular architecture, gRPC, Kubernetes, observability.
+- **Capstone Projects** → e-commerce, CRM, ERP module, real-time chat, SaaS dashboard, AI doc generator.
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-092E20?style=for-the-badge" /></a></p>
 
@@ -120,7 +135,7 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
    cd Django-Nextjs-Journey
    ```
 
-2. **Open the roadmap** — the master list of all 25 phases and 622 topics:
+2. **Open the roadmap** — the master list of all 26 phases and 683 topics:
    ```sh
    open docs/roadmap.md
    ```
@@ -130,7 +145,7 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
    open docs/progress-tracker.md
    ```
 
-4. **Pick your starting phase:**
+4. **Pick your starting point** (everyone begins in **Level 1 — Foundations**):
    - New to Python → start at [Phase 1: Foundation](docs/roadmap.md#phase-1-foundation--python-basics).
    - Know Python & TS → jump to [Phase 6: Django Basics](docs/roadmap.md#phase-6-django-basics).
    - Know Django → jump to [Phase 11: Next.js Basics](docs/roadmap.md#phase-11-nextjs-basics).
@@ -168,8 +183,8 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
 
 | No. | Topics | Includes |
 | --- | ------ | -------- |
-| 1 | [Full Roadmap](docs/roadmap.md) | All 25 phases and 622 topics: Python → TS → Django → Next.js → Auth → Real-time → Testing → DevOps → Scaling → System Design |
-| 2 | [Progress Tracker](docs/progress-tracker.md) | 622-row checklist to track ⬜ / 🔄 / ✅ per topic, grouped by phase |
+| 1 | [Full Roadmap](docs/roadmap.md) | 4 levels · 26 phases · 683 topics: Python → TS → Django → Next.js → Auth → Business systems → Testing → DevOps → Scaling → System Design |
+| 2 | [Progress Tracker](docs/progress-tracker.md) | 683-row checklist to track ⬜ / 🔄 / ✅ per topic, grouped by phase |
 | 3 | [Phase 1: Foundation — Python Basics](docs/roadmap.md#phase-1-foundation--python-basics) | Python syntax, data structures, functions, exceptions, file I/O |
 | 4 | [Phase 2: Python Deep Dive](docs/roadmap.md#phase-2-python-deep-dive) | OOP, decorators, generators, context managers, type hints, async |
 | 5 | [Phase 3: JavaScript & TypeScript Foundation](docs/roadmap.md#phase-3-javascript--typescript-foundation) | ES6+, promises, TS types, interfaces, generics, utility types |
@@ -190,11 +205,12 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
 | 20 | [Phase 18: Advanced Next.js](docs/roadmap.md#phase-18-advanced-nextjs) | App Router, server actions, streaming, edge, revalidation, SEO |
 | 21 | [Phase 19: Caching, Performance & Real-time](docs/roadmap.md#phase-19-caching-performance--real-time) | Redis, Django Channels (WebSockets), GraphQL |
 | 22 | [Phase 20: Async Tasks, Payments & Integrations](docs/roadmap.md#phase-20-async-tasks-payments--integrations) | Celery, email, Stripe, S3 storage |
-| 23 | [Phase 21: Testing](docs/roadmap.md#phase-21-testing) | pytest, DRF tests, factory_boy, Jest, Playwright, Cypress |
-| 24 | [Phase 22: DevOps & Deployment](docs/roadmap.md#phase-22-devops--deployment) | Docker, Gunicorn/Nginx, CI/CD, Vercel, Railway, AWS |
-| 25 | [Phase 23: Scaling & Architecture](docs/roadmap.md#phase-23-scaling--architecture) | Microservices, message queues, gRPC, Kubernetes, observability |
-| 26 | [Phase 24: System Design & Expert Level](docs/roadmap.md#phase-24-system-design--expert-level) | DDD, Clean/Hexagonal architecture, CQRS, event sourcing, AI integration |
-| 27 | [Phase 25: Final Projects](docs/roadmap.md#phase-25-final-projects) | Todo CRUD → E-Commerce → Trello Clone → SaaS Dashboard → AI Doc Generator |
+| 23 | [Phase 21: Building Business Systems](docs/roadmap.md#phase-21-building-business-systems-saas--erp--crm-patterns) | Multi-tenancy, RBAC, audit trails, billing, reporting/PDF, webhooks, ETL |
+| 24 | [Phase 22: Testing](docs/roadmap.md#phase-22-testing) | pytest, DRF tests, factory_boy, Jest, Playwright, Cypress |
+| 25 | [Phase 23: DevOps & Deployment](docs/roadmap.md#phase-23-devops--deployment) | Docker, Gunicorn/Nginx, CI/CD, Terraform, load testing, Vercel, Railway, AWS |
+| 26 | [Phase 24: Scaling & Architecture](docs/roadmap.md#phase-24-scaling--architecture) | Microservices, message queues, gRPC, Kubernetes, plugin/modular architecture, observability |
+| 27 | [Phase 25: System Design & Expert Level](docs/roadmap.md#phase-25-system-design--expert-level) | DDD, Clean/Hexagonal architecture, CQRS, event sourcing, AI integration |
+| 28 | [Phase 26: Final Projects](docs/roadmap.md#phase-26-final-projects) | Todo CRUD → E-Commerce → CRM → ERP module → Modular-monolith plugin app → AI Doc Generator |
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-092E20?style=for-the-badge" /></a></p>
 
@@ -206,7 +222,7 @@ A self-paced curriculum for developers who want to master a **Python-backed, Typ
 ```
 Django-Nextjs-Journey/
 ├── docs/
-│   ├── roadmap.md              # Full 25-phase, 622-topic curriculum
+│   ├── roadmap.md              # Full 26-phase, 683-topic curriculum
 │   └── progress-tracker.md     # Trackable checklist (⬜ / 🔄 / ✅)
 │
 ├── phase-01-python-basics/         # Python fundamentals
@@ -230,17 +246,20 @@ Django-Nextjs-Journey/
 ├── phase-18-advanced-nextjs/       # App Router, server actions
 ├── phase-19-cache-realtime/        # Redis, Channels, GraphQL
 ├── phase-20-async-payments/        # Celery, Stripe, email
-├── phase-21-testing/               # pytest, Playwright, Cypress
-├── phase-22-devops/                # Docker, CI/CD, deployment
-├── phase-23-scaling/               # Microservices, Kubernetes
-├── phase-24-system-design/         # DDD, architecture, AI
-├── phase-25-projects/              # Capstone projects
+├── phase-21-business-systems/      # Multi-tenancy, billing, audit, reporting
+├── phase-22-testing/               # pytest, Playwright, Cypress
+├── phase-23-devops/                # Docker, CI/CD, Terraform, deployment
+├── phase-24-scaling/               # Microservices, plugins, Kubernetes
+├── phase-25-system-design/         # DDD, architecture, AI
+├── phase-26-projects/              # Capstone projects
 │   ├── todo-crud/
 │   ├── auth-app/
 │   ├── ecommerce/
 │   ├── chat-app/
 │   ├── trello-clone/
 │   ├── saas-dashboard/
+│   ├── crm/
+│   ├── erp-module/
 │   └── booking-system/
 │
 ├── NestJS-NextJS-Journey/     # Archived: the previous NestJS curriculum
